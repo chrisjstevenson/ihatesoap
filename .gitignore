@@ -3,3 +3,4 @@ config.js
 certificates
 .idea
 node_modules
+.DS_Store
