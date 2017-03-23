@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const config = require('./config.js');
 
-const pfxFile = path.resolve(__dirname,'certificates/keystore.pfx');
+const pfxFile = path.resolve(__dirname,'certificates/keystore.pfx'); // client certificate used to authenticate though gateway
 
 var options = {
     //proxy: 'http://localhost:8888', // send to charles for http-debugging, will result in mac verfiy failure if able to pass through gateway
